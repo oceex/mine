@@ -16,8 +16,21 @@
         <mxCell id="s9MpQI0BnWKiZhO-bvp5-4" parent="s9MpQI0BnWKiZhO-bvp5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getScreenings(): List&amp;lt;Screening&amp;gt;&lt;div&gt;+ isAllowed(user: User): boolean&lt;/div&gt;" vertex="1">
           <mxGeometry height="68" width="160" y="88" as="geometry" />
         </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-5" edge="1" parent="1" source="RthnoAzch83W3M4uVucT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_2mSh_lRsO_4bCQhu81l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-6" connectable="0" parent="_2mSh_lRsO_4bCQhu81l-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.8775" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-7" connectable="0" parent="_2mSh_lRsO_4bCQhu81l-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0.." vertex="1">
+          <mxGeometry relative="1" x="-0.8813" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RthnoAzch83W3M4uVucT-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="user" vertex="1">
-          <mxGeometry height="230" width="160" x="310" y="130" as="geometry" />
+          <mxGeometry height="240" width="160" x="310" y="130" as="geometry" />
         </mxCell>
         <mxCell id="RthnoAzch83W3M4uVucT-2" parent="RthnoAzch83W3M4uVucT-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- userName: String&lt;div&gt;- final ID: int&lt;br&gt;&lt;div&gt;- password: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- age: int&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="94" width="160" y="26" as="geometry" />
@@ -26,7 +39,7 @@
           <mxGeometry height="8" width="160" y="120" as="geometry" />
         </mxCell>
         <mxCell id="RthnoAzch83W3M4uVucT-4" parent="RthnoAzch83W3M4uVucT-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ login(username: String, password: String): boolean&lt;/div&gt;&lt;div&gt;+ setPassword(newPassword: String): void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getPrice(basePrice): double&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="102" width="160" y="128" as="geometry" />
+          <mxGeometry height="112" width="160" y="128" as="geometry" />
         </mxCell>
         <mxCell id="RthnoAzch83W3M4uVucT-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Seat" vertex="1">
           <mxGeometry height="130" width="160" x="20" y="560" as="geometry" />
@@ -83,6 +96,18 @@
         </mxCell>
         <mxCell id="m902K0GITSqyzj7XWWID-23" parent="m902K0GITSqyzj7XWWID-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getAvailableSeats(): int&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="UserManager" vertex="1">
+          <mxGeometry height="180" width="160" x="425" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-2" parent="_2mSh_lRsO_4bCQhu81l-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- users: List&amp;lt;User&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-3" parent="_2mSh_lRsO_4bCQhu81l-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_2mSh_lRsO_4bCQhu81l-4" parent="_2mSh_lRsO_4bCQhu81l-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ addUser(user: User): boolean&lt;/div&gt;&lt;div&gt;+ findUser(username: String): User&lt;/div&gt;&lt;div&gt;+ login(username: String, password: String): User&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="160" y="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
